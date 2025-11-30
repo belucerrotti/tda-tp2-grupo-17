@@ -18,8 +18,6 @@ def enviar_archivo_por_la_red(grafo_original, tam_archivo):
     nodo_max = max(nodos)
     S = "S"
     T = "T"
-    G.add_node(S)
-    G.add_node(T)
     G.add_edge(S, nodo_min, capacity=tam_archivo)
     G.add_edge(nodo_max, T, capacity=tam_archivo)
 
@@ -63,11 +61,17 @@ if __name__ == "__main__":
         (9, 10, 3),
     ]
 
-    tam_archivo = 10  
+    tam_archivo = 10
 
-    flujo_max, fragmentos = enviar_archivo_por_la_red(grafo, tam_archivo)
+    flujo_max, fragmentacion = enviar_archivo_por_la_red(grafo, tam_archivo)
 
-    for u, v, mb in fragmentos:
-        print(f"Nodo {u} --> Nodo {v} [{mb} MB]")
-    print(f"Flujo máximo: {flujo_max} MB")
-    
+    # Escribir resultados en resultado.txt
+    with open("resultado.txt", "w") as f:
+        for u, v, mb in fragmentacion:
+            linea = f"Nodo {u} --> Nodo {v} [{mb} MB]\n"
+            print(linea.strip())
+            f.write(linea)
+        flujo_linea = f"Flujo máximo: {flujo_max} MB\n"
+        print(flujo_linea.strip())
+        f.write(flujo_linea)
+
