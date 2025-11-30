@@ -1,4 +1,4 @@
-# Ejercicio 1 - Ruta Óptima en Redes
+# Ejercicio 1 - Programación Lineal
 
 Este programa resuelve el problema de enviar un archivo a través de una red dirigida (grafo), donde cada arista tiene una capacidad máxima de transferencia. El objetivo es determinar cómo fragmentar y enviar el archivo desde un nodo origen hasta un nodo destino minimizando la cantidad de enlaces utilizados. El problema se modela como un problema de programación lineal entera y se resuelve utilizando la librería PuLP.
 
@@ -20,7 +20,7 @@ pip install pulp
 
 1. Tener Python 3 instalado.
 2. Instalar la dependencia PuLP.
-3. Abrir una terminal y ubicarse dentro del directorio `Ejercicio_1` (donde está el archivo `ej1.py`).
+3. Abrir una terminal y ubicarse dentro del directorio `Ejercicio 1` (donde está el archivo `ej1.py`).
 4. Ejecutar el archivo con:
 
 ```bash

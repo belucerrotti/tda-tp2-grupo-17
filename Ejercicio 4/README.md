@@ -1,4 +1,4 @@
-# PROBLEMA 4 - Algoritmos Randomizados
+# Ejercicio 4 - Algoritmos Randomizados
 ## Prueba de Conocimiento Cero: Esferas de Peggy y Victor
 
 ---

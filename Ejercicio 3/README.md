@@ -1,4 +1,4 @@
-# PROBLEMA 3 - Algoritmos de Aproximación 
+# Ejercicio 3 - Algoritmos de Aproximación 
 
 ## Descripción
 Implementación del algoritmo First Fit Decreasing (FFD) para el problema de Bin Packing,
