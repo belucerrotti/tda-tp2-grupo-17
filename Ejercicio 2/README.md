@@ -19,7 +19,8 @@ pip install networkx
 
 1. Tener Python 3 instalado.
 2. Instalar la dependencia NetworkX.
-3. Ejecutar el archivo `ej2.py` desde la terminal:
+3. Abrir una terminal y ubicarse dentro del directorio Ejercicio 2 (donde está el archivo ej2.py).
+4. Ejecutar el archivo `ej2.py` desde la terminal:
 
 ```bash
 python3 ej2.py

@@ -1,0 +1,15 @@
+Estado: Optimal
+Enlaces totales usados: 12.0
+------------------------------
+Nodo 1 -> Nodo 2: 5.0 MB
+Nodo 1 -> Nodo 3: 5.0 MB
+Nodo 2 -> Nodo 6: 3.0 MB
+Nodo 2 -> Nodo 5: 2.0 MB
+Nodo 3 -> Nodo 7: 2.0 MB
+Nodo 3 -> Nodo 4: 3.0 MB
+Nodo 4 -> Nodo 8: 3.0 MB
+Nodo 5 -> Nodo 7: 2.0 MB
+Nodo 6 -> Nodo 9: 3.0 MB
+Nodo 7 -> Nodo 10: 4.0 MB
+Nodo 8 -> Nodo 10: 3.0 MB
+Nodo 9 -> Nodo 10: 3.0 MB
